@@ -1,0 +1,4 @@
+south-2244.jpg : https://pixabay.com/en/south-haven-lighthouse-pier-lake-2244/
+michigan-23565_640.png : https://pixabay.com/en/michigan-map-state-america-23565/
+roboto font : https://fonts.google.com/specimen/Roboto?selection.family=Roboto
+colors : https://github.com/mrmrs/colors

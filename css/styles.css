@@ -1,0 +1,112 @@
+:root{
+	--buffer: -100px;
+
+	--header-size: 160px;
+	--header-color: #0074D9;
+	--header-outline-size: 5px;
+	--header-outline-color: #001F3F;
+	
+	--section-color: white;
+	--section-outline-size: 5px;
+	--section-outline-color: #001F3F;
+	--section-margin: 20px;
+
+	--page-color: rgba(42, 42, 42, .5);
+	--page-outline-size: 5px;
+	--page-outline-color: #111111;
+
+	--text-outline-color: #001F3F;
+}
+
+
+body {
+	padding: 45px;
+	margin: 0;
+	background-image:url("../images/south-2244.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+html {
+	padding: 0;
+}
+#page {
+	margin: auto;
+	max-width: 1366px;
+	outline: var(--page-outline-size) solid var(--page-outline-color);
+	background-color: var(--page-color);
+}
+#header {
+	min-height: var(--header-size);
+	width: 100%;
+	background-color: var(--header-color);
+	outline: var(--header-outline-size) solid var(--header-outline-color);
+}
+#middle{
+	position:  relative;
+	top: var(--buffer);
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	max-width: 1268px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.column{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.big{
+	flex: 10;
+}
+.section{
+	outline: var(--section-outline-size) solid var(--section-outline-color);
+	background-color: var(--section-color);
+	margin: var(--section-margin);
+}
+.section:first-child{
+	
+	cursor: pointer;
+}
+.outline{
+
+}
+#milogo {
+	/*background-image:url("../images/michigan-23565_640.png") no-repeat center center;
+	background-size: contain;*/
+	object-fit: contain;
+}
+#milogo img{
+	display: block;
+	height: 142px;
+
+}
+#mititle {
+	height: 142px;
+	text-align: center;
+	display: flex;     
+
+    font-family: 'Ranga', cursive;
+
+
+}
+.vcenter{
+	margin: auto;
+	font-size: 400%;
+}
+#navbar a{
+	display: block;
+	text-decoration: none;
+	color: #0074D9;
+	padding: 5px 5px;
+}
+#navbar a:hover{
+	color: gray;
+}
+#content{
+	outline: var(--section-outline-size) solid var(--text-outline-color);
+	padding: 45px 65px;
+	font-size: 125%;
+	font-weight: lighter;
+}
