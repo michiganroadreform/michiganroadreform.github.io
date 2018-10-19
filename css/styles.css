@@ -23,6 +23,11 @@ body {
 	padding: 45px;
 	margin: 0;
 	background-image:url("../images/south-2244.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 }
 html {
@@ -66,7 +71,7 @@ html {
 	margin: var(--section-margin);
 }
 .section:first-child{
-	
+
 	cursor: pointer;
 }
 .outline{
@@ -94,6 +99,9 @@ html {
 .vcenter{
 	margin: auto;
 	font-size: 400%;
+}
+#navbar {
+	padding: 15px 0;
 }
 #navbar a{
 	display: block;
