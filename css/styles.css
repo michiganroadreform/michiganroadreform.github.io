@@ -47,10 +47,10 @@ html {
 }
 #middle{
 	position:  relative;
+	margin: auto;
 	margin-top: var(--buffer);
 	display: flex;
 	flex-direction: row;
-	margin: auto;
 	max-width: 1268px;
 }
 .row{
