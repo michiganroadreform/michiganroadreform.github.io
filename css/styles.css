@@ -114,7 +114,7 @@ html {
 }
 #content{
 	outline: var(--section-outline-size) solid var(--text-outline-color);
-	padding: 45px 65px;
+	padding: 25px 45px;
 	font-size: 125%;
 	font-weight: lighter;
 	line-height: 180%;
