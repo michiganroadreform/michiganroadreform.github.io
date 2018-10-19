@@ -47,7 +47,7 @@ html {
 }
 #middle{
 	position:  relative;
-	top: var(--buffer);
+	margin-top: var(--buffer);
 	display: flex;
 	flex-direction: row;
 	margin: auto;
